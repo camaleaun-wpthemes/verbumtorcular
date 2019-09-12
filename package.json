@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "i18n": "wp i18n make-pot . languages/verbumtorcular.pot",
+    "dist": "wp dist-archive .",
+    "sass": "sass --watch --no-source-map assets/sass/style.scss style.css"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^1.12.4",
+    "jquery-migrate": "^1.4.1",
+    "popper.js": "^1.14.7",
+    "sass": "^1.22.12"
+  }
+}

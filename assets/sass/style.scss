@@ -1,0 +1,35 @@
+/*!
+Theme Name: Verbum Torcular
+Version: 1.0.0
+Text Domain: verbumtorcular
+*/
+
+@import "../../../../../node_modules/bootstrap/scss/functions";
+@import "variables";
+@import "../../../../../node_modules/bootstrap/scss/mixins";
+
+.search-form {
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+
+	@include media-breakpoint-up(lg) {
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+
+	@include media-breakpoint-up(sm) {
+		.form-control {
+			margin-right: .5rem;
+		}
+	}
+
+	.btn {
+		margin-top: .5rem;
+		margin-bottom: .5rem;
+
+		@include media-breakpoint-up(sm) {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+	}
+}
