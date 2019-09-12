@@ -1,0 +1,12 @@
+{
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^2.3"
+    },
+    "require": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.6.2",
+        "twbs/bootstrap": "^4.5"
+    },
+    "scripts": {
+        "tests": "composer install && vendor/bin/phpcs -p"
+    }
+}

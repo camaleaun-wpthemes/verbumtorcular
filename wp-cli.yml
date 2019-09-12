@@ -1,0 +1,4 @@
+require:
+  - bin/dist.php
+  - bin/pot.php
+  - bin/sass.php

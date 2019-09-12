@@ -1,0 +1,45 @@
+# Copyright (C) 2020 
+# This file is distributed under the .
+msgid ""
+msgstr ""
+"Project-Id-Version: Verbum Torcular 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/verbumtorcular\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-15T01:21:54-03:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: verbumtorcular\n"
+
+#. Theme Name of the theme
+msgid "Verbum Torcular"
+msgstr ""
+
+#. translators: %s: post title
+#: index.php:46
+msgid "Continue reading %s"
+msgstr ""
+
+#: index.php:53
+msgid "Pages:"
+msgstr ""
+
+#: index.php:69
+msgid "Nothing Found"
+msgstr ""
+
+#: index.php:76
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: index.php:81
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: searchform.php:11
+#: searchform.php:12
+msgid "Serch"
+msgstr ""

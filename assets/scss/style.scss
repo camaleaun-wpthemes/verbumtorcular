@@ -1,0 +1,38 @@
+/*
+Theme Name: Verbum Torcular
+Version: 1.0.0
+Text Domain: verbumtorcular
+Domain Path: /languages/
+*/
+
+@import "../../vendor/twbs/bootstrap/scss/functions";
+@import "variables";
+@import "../../vendor/twbs/bootstrap/scss/mixins";
+@import "../../vendor/twbs/bootstrap/scss/root";
+@import "../../vendor/twbs/bootstrap/scss/reboot";
+
+.search-form {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+
+    @include media-breakpoint-up(lg) {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    @include media-breakpoint-up(sm) {
+        .form-control {
+            margin-right: .5rem;
+        }
+    }
+
+    .btn {
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+
+        @include media-breakpoint-up(sm) {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+}
